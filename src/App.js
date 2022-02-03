@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
+// import FormikContainer from './components/formik/FormikContainer';
+// import LoginForm from './components/scenarios/LoginForm';
+// import RegistrationForm from './components/scenarios/RegistrationForm';
+import EnrollmentForm from './components/scenarios/EnrollmentForm';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+			{/* <FormikContainer />
+			<LoginForm />
+			<RegistrationForm /> */}
+			<EnrollmentForm />
     </div>
   );
 }
